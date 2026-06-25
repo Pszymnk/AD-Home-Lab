@@ -20,7 +20,7 @@ Projekt polega na zaprojektowaniu, wdrożeniu i konfiguracji wirtualnego środow
 <img width="751" height="522" alt="obraz" src="https://github.com/user-attachments/assets/03132a86-e44a-4cc7-832d-b08cfb8d61a9" />
 
 ### 2. Konfiguracja Obiektów Zasad Grupy (GPO)
-* **Mapowanie dysków sieciowych (User Configuration):** Automatyczne podłączanie zasobów udostępnionych (Dysk Z: "Tajne Dokumenty") podczas logowania użytkownika.
+* **Mapowanie dysków sieciowych (User Configuration):** Automatyczne podłączanie zasobów udostępnionych (Dysk Z: "Dane") podczas logowania użytkownika.
 * **Branding Firmowy:** Wymuszenie ujednoliconej tapety na stacjach roboczych bez możliwości zmiany przez pracownika.
 * **Restrykcje Bezpieczeństwa:** Blokada dostępu do Panelu Sterowania i Ustawień systemu Windows dla kont nieuprzywilejowanych.
 
