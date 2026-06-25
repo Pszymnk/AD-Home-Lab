@@ -42,10 +42,16 @@ Projekt polega na zaprojektowaniu, wdrożeniu i konfiguracji wirtualnego środow
 * **Automatyczne wdrażanie oprogramowania:** Skonfigurowanie polityki GPO (`Software Installation`) w sekcji komputerowej, co pozwoliło na w pełni automatyczną instalację agenta Action1 na stacjach roboczych w tle, bez konieczności ręcznego klikania instalatora na każdym komputerze.
 * **Centralny nadzór:** Przygotowanie infrastruktury pod zdalne zarządzanie aplikacjami oraz monitorowanie stanu technicznego maszyn z poziomu jednego panelu w chmurze.
 
-<p align="center">
-  <img width="45%"  alt="GPO" src="https://github.com/user-attachments/assets/39d57c86-5e20-47fe-9c29-cb52db9dcfef" />
-  <img width="45%"  alt="Panel Action1" src="https://github.com/user-attachments/assets/da54cc8a-5bb5-46de-a816-13d2d7513eae" />
-</p>
+<table align="center" width="100%">
+  <tr>
+    <td align="center" valign="middle" width="50%">
+  <img width="95%"  alt="GPO" src="https://github.com/user-attachments/assets/39d57c86-5e20-47fe-9c29-cb52db9dcfef" />
+    </td>
+    <td align="center" valign="middle" width="50%">
+  <img width="95%"  alt="Panel Action1" src="https://github.com/user-attachments/assets/da54cc8a-5bb5-46de-a816-13d2d7513eae" />
+</td>
+  </tr>
+</table>
 
 
 ### 5. Obsługa Zgłoszeń i Procesy ITSM (Jira Service Desk)
