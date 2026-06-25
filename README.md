@@ -43,8 +43,8 @@ Projekt polega na zaprojektowaniu, wdrożeniu i konfiguracji wirtualnego środow
 * **Centralny nadzór:** Przygotowanie infrastruktury pod zdalne zarządzanie aplikacjami oraz monitorowanie stanu technicznego maszyn z poziomu jednego panelu w chmurze.
 
 <p align="center">
-  <img width="45%"  alt="obraz" src="https://github.com/user-attachments/assets/39d57c86-5e20-47fe-9c29-cb52db9dcfef" />
-  <img width="45%"  alt="obraz" src="https://github.com/user-attachments/assets/da54cc8a-5bb5-46de-a816-13d2d7513eae" />
+  <img width="45%"  alt="GPO" src="https://github.com/user-attachments/assets/39d57c86-5e20-47fe-9c29-cb52db9dcfef" />
+  <img width="45%"  alt="Panel Action1" src="https://github.com/user-attachments/assets/da54cc8a-5bb5-46de-a816-13d2d7513eae" />
 </p>
 
 
@@ -52,7 +52,7 @@ Projekt polega na zaprojektowaniu, wdrożeniu i konfiguracji wirtualnego środow
 * **Zarządzanie cyklem życia incydentów:** Konfiguracja tablicy Kanban w systemie Jira (projekt *HomeLab*) w celu kategoryzacji, przypisywania i mapowania zgłoszeń użytkowników końcowych zgodnie z praktykami Help Desk.
 * **Symulacja zgłoszeń L1/L2:** Praktyczne procesowanie codziennych incydentów wsparcia technicznego, takich jak procedury resetowania haseł (*Reset password*), odblokowywanie kont w Active Directory (*Unlock account*) oraz pełna dokumentacja techniczna rozwiązanych awarii.
 
-<img width="100%" alt="obraz" src="https://github.com/user-attachments/assets/5b42f4b5-97bc-40d8-948c-3d333d931528" />
+<img width="100%" alt="Paneel Jira" src="https://github.com/user-attachments/assets/5b42f4b5-97bc-40d8-948c-3d333d931528" />
 
 
 
@@ -62,7 +62,7 @@ Podczas automatycznego wdrażania agenta Action1 przez GPO, system Windows 11 za
 * **Konfigurację zabezpieczeń folderu:** Rozdzielenie uprawnień na poziomie sieciowym (**Share Permissions:** dodano grupę `Everyone` z prawem odczytu) oraz lokalnym (**NTFS Security:** przypisano dedykowane prawa odczytu i wykonania dla grupy `Domain Computers`).
 * **Optymalizację ścieżki UNC:** Zmianę mapowania pakietu `.msi` w GPO z nazwy hosta na bezpośredni adres IP (`\\192.168.10.10\deploy`), co wyeliminowało błędy komunikacji z serwerem DNS podczas wczesnej fazy rozruchu systemu operacyjnego.
 
-<img width="100%" alt="obraz" src="https://github.com/user-attachments/assets/50d43d86-8317-4945-bb03-a48133f307e6" />
+<img width="100%" alt="Raport błędu" src="https://github.com/user-attachments/assets/50d43d86-8317-4945-bb03-a48133f307e6" />
 
 
 
