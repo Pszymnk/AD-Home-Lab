@@ -6,8 +6,9 @@ Projekt polega na zaprojektowaniu, wdrożeniu i konfiguracji wirtualnego środow
 ## 🏗️ Architektura i Technologie
 * **Hypervisor:** Oracle VirtualBox
 * **Serwer (Kontroler Domeny):** Windows Server 2022 (IP: 192.168.10.10)
-* **Stacja Robocza (Klient):** Windows 10/11 (IP: 192.168.10.11)
-* **Sieć:** Sieć wewnętrzna (Internal Network), własny serwer DNS.
+* **Stacja Robocza (Klient):** Windows 11 Pro (IP: 192.168.10.11)
+* **Sieć:** Sieć wewnętrzna (Internal Network) oraz przełącznik w trybie Bridged, własny serwer DNS.
+* **Systemy Zarządzania:** Action1 RMM (Patch Management), Jira Service Desk.
 
 ## ⚙️ Zrealizowane Zadania
 
@@ -31,8 +32,10 @@ Projekt polega na zaprojektowaniu, wdrożeniu i konfiguracji wirtualnego środow
 * Biegłe wykorzystanie narzędzi wiersza poleceń do diagnostyki: `gpupdate /force`, `gpresult`, `whoami`.
 * Symulacja resetowania uprawnień i rozwiązywania konfliktów logowania.
 
-<img width="1025" height="766" alt="obraz" src="https://github.com/user-attachments/assets/efb6fc71-f2d1-4d3f-969c-ada418d98a3d" />
-<img width="1023" height="764" alt="obraz" src="https://github.com/user-attachments/assets/53361cab-7103-42d1-9441-955e4d3c98eb" />
+<p align="center">
+  <img width="45%" alt="obraz" src="https://github.com/user-attachments/assets/efb6fc71-f2d1-4d3f-969c-ada418d98a3d" />
+  <img width="45%" alt="obraz" src="https://github.com/user-attachments/assets/53361cab-7103-42d1-9441-955e4d3c98eb" />
+</p>
 
 
 
