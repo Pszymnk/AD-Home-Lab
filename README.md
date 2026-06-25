@@ -60,7 +60,7 @@ Projekt polega na zaprojektowaniu, wdrożeniu i konfiguracji wirtualnego środow
 Podczas automatycznego wdrażania agenta Action1 przez GPO, system Windows 11 zaraportował błąd: *"The installation source for this product is not available"*. Proces udanego troubleshootingu objął:
 * **Analizę uprawnień maszynowych:** Identyfikację, że instalator GPO uruchamia się na prawach konta systemowego komputera, a nie zalogowanego użytkownika.
 * **Konfigurację zabezpieczeń folderu:** Rozdzielenie uprawnień na poziomie sieciowym (**Share Permissions:** dodano grupę `Everyone` z prawem odczytu) oraz lokalnym (**NTFS Security:** przypisano dedykowane prawa odczytu i wykonania dla grupy `Domain Computers`).
-* **Optymalizację ścieżki UNC:** Zmianę mapowania pakietu `.msi` w GPO z nazwy hosta na bezpośredni adres IP (`\\192.168.10.10\Instalki`), co wyeliminowało błędy komunikacji z serwerem DNS podczas wczesnej fazy rozruchu systemu operacyjnego.
+* **Optymalizację ścieżki UNC:** Zmianę mapowania pakietu `.msi` w GPO z nazwy hosta na bezpośredni adres IP (`\\192.168.10.10\deploy`), co wyeliminowało błędy komunikacji z serwerem DNS podczas wczesnej fazy rozruchu systemu operacyjnego.
 
 * <img width="1919" height="686" alt="obraz" src="https://github.com/user-attachments/assets/50d43d86-8317-4945-bb03-a48133f307e6" />
 
